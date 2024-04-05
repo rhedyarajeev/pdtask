@@ -1,7 +1,10 @@
+
 import 'package:flutter/material.dart';
 import 'package:pdtask/education_2.dart';
 
+
 class education1 extends StatelessWidget {
+  const education1 ({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -40,7 +43,7 @@ class education1 extends StatelessWidget {
                   height: 175,
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: AssetImage(''),
+                      image: AssetImage('assets/images/image1.png'),
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -54,7 +57,7 @@ class education1 extends StatelessWidget {
                   height: 483,
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: AssetImage(''),
+                      image: AssetImage('assets/images/image0.png'),
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -68,7 +71,7 @@ class education1 extends StatelessWidget {
                   height: 190,
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: AssetImage(''),
+                      image: AssetImage('assets/images/image2.png'),
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -82,7 +85,7 @@ class education1 extends StatelessWidget {
                   height: 113.11,
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: AssetImage(''),
+                      image: AssetImage('assets/images/Vector 1 (1).png'),
                       fit: BoxFit.cover,
                     ),
                   ),
