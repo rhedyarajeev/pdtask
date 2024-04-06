@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:pdtask/education_2.dart';
-
 class StartupEducation extends StatelessWidget {
   const StartupEducation({Key? key}) : super(key: key);
 

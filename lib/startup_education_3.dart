@@ -22,7 +22,7 @@ class Startup3 extends StatelessWidget {
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     image: DecorationImage(
-                      image: AssetImage('assets/images/bx_bx-menu-alt-left.png'),
+                      image: AssetImage('assets/images/menu.png'),
                       fit: BoxFit.fill,
                     ),
                   ),
@@ -55,7 +55,7 @@ class Startup3 extends StatelessWidget {
           SizedBox(
             width: 366,
             child: Padding(
-              padding: const EdgeInsets.only(left: 20, top: 20),
+              padding: const EdgeInsets.only(left: 20, top: 50),
               child: Text(
                 'Find your favorite startup',
                 style: TextStyle(
@@ -84,7 +84,7 @@ class Startup3 extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(height: 20),
+          // SizedBox(height: 5),
           Row(
             children: [
               Padding(
@@ -183,7 +183,7 @@ class Startup3 extends StatelessWidget {
               ),
             ],
           ),
-          SizedBox(height: 20),
+          SizedBox(height: 40),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
@@ -630,7 +630,7 @@ class Startup3 extends StatelessWidget {
               ],
             ),
           ),
-          SizedBox(height: 20),
+          SizedBox(height: 0),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
@@ -808,5 +808,3 @@ class Startup3 extends StatelessWidget {
     );
   }
 }
-
-

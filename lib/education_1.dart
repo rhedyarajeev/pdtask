@@ -186,7 +186,7 @@ class education1 extends StatelessWidget {
                               // Navigate to education2 page when "Get Started" button is pressed
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(builder: (context) => education2()),
+                                MaterialPageRoute(builder: (context) => education_2()),
                               );
                             },
                             child: Center(
