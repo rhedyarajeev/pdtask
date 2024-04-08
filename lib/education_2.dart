@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:pdtask/startup_education_3.dart';
 class education_2 extends StatelessWidget {
   const education_2({Key? key}) : super(key: key);
   @override
@@ -61,20 +62,7 @@ class education_2 extends StatelessWidget {
                   ),
                 ),
               ),
-              Positioned(
-                top: 374.74,
-                left: 225.23,
-                child: Container(
-                  width: 1.28,
-                  height: 113.11,
-                  decoration: BoxDecoration(
-                    image: DecorationImage(
-                      image: AssetImage('assets/images/Vector 1 (1).png'),
-                      fit: BoxFit.cover,
-                    ),
-                  ),
-                ),
-              ),
+        
               Positioned(
                 left: 0,
                 bottom: 0,
@@ -165,7 +153,16 @@ class education_2 extends StatelessWidget {
                               ),
                             ],
                           ),
-                              child: const Center(
+                          
+                             child: TextButton(
+                            onPressed: () {
+                              // Navigate to education2 page when "Get Started" button is pressed
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(builder: (context) => Startup3()),
+                              );
+                            },
+                            child: Center(
                               child: Text(
                                 'Get Started',
                                 textAlign: TextAlign.center,
@@ -181,9 +178,11 @@ class education_2 extends StatelessWidget {
                           ),
                         ),
                       
-                    ],
+                    
                   ),
+                    ]
                 ),
+              ),
               ),
             ],
           ),

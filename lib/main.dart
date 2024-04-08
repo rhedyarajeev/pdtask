@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:pdtask/education_2.dart';
+
+import 'package:pdtask/splash.dart';
+
+
+
+
 
 void main() {
   runApp(const MyApp());
@@ -10,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: education_2()
+      home: SplashScreen()
     );
   }
 }
