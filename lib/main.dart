@@ -3,9 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:pdtask/splash.dart';
 
 
-
-
-
 void main() {
   runApp(const MyApp());
 }

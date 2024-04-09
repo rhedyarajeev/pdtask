@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pdtask/menu.dart';
+import 'package:pdtask/start_up_education_7.dart';
 
 class Startup3 extends StatefulWidget {
   const Startup3({Key? key}) : super(key: key);
@@ -97,14 +98,20 @@ class StartupPageContent extends StatelessWidget {
                 ),
               ),
               Spacer(),
-              Container(
-                width: 40,
-                height: 40,
-                decoration: BoxDecoration(
-                  shape: BoxShape.circle,
-                  image: DecorationImage(
-                    image: AssetImage('assets/images/avatar.gif'),
-                    fit: BoxFit.fill,
+               GestureDetector(
+                    onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) =>  StartUp()));
+                    },
+                child: Container(
+                  width: 40,
+                  height: 40,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    image: DecorationImage(
+                      image: AssetImage('assets/images/avatar.gif'),
+                      fit: BoxFit.fill,
+                    ),
                   ),
                 ),
               ),
